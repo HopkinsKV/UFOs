@@ -39,7 +39,7 @@ function handleClick() {
 
    // Rebuild the table using the filtered data
   buildTable(filteredData);
-};
+}
 // Listen for click
 d3.selectAll("#filter-btn").on("click", handleClick);
 
